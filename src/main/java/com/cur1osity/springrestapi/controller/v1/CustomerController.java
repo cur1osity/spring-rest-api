@@ -28,6 +28,12 @@ public class CustomerController {
         return customerService.getCustomerById(id);
     }
 
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public CustomerListDTO getallCustomers(){
+        return new CustomerListDTO(customerService.getAllCustomers());
+    }
+
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
