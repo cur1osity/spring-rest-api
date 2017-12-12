@@ -1,6 +1,6 @@
 package com.cur1osity.springrestapi.service;
 
-import com.cur1osity.springrestapi.api.v1.CustomerMapper;
+import com.cur1osity.springrestapi.api.v1.mapper.CustomerMapper;
 import com.cur1osity.springrestapi.controller.v1.CustomerController;
 import com.cur1osity.springrestapi.domain.Customer;
 import com.cur1osity.springrestapi.model.CustomerDTO;

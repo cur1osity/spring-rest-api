@@ -1,4 +1,4 @@
-package com.cur1osity.springrestapi.api.v1;
+package com.cur1osity.springrestapi.api.v1.mapper;
 
 import com.cur1osity.springrestapi.domain.Customer;
 import com.cur1osity.springrestapi.model.CustomerDTO;
